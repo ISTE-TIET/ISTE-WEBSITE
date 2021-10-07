@@ -1,0 +1,182 @@
+body {
+  font-family: "Montserrat";
+  /* padding-top: 100%; */
+}
+video.background-vid {
+  z-index: -1;
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.container-white {
+  background-color: #fff;
+}
+
+.main-img {
+  margin: auto;
+  width: 80%;
+}
+.section {
+  position: relative;
+  width: 100%;
+  height: 110vh;
+  display: flex;
+  overflow: hidden;
+  background-color: #0d0d0ea8;
+}
+
+.text {
+  color: #c0bebe;
+}
+
+/* /////////////////////navbar//////////////////////////// */
+
+.logo {
+  text-align: left;
+  width: 420px;
+  height: 100px;
+  margin-top: 2%;
+  margin-left: -22%;
+  z-index: 1;
+  width: 130px;
+  height: 100%;
+}
+
+nav {
+  height: 60px;
+}
+.navbar {
+  position: fixed;
+  margin-right: -5%;
+  margin-top: 0;
+  width: 100%;
+  z-index: 1;
+  display: fixed;
+  top: 0;
+  padding: 2.3%;
+}
+
+.nav-link {
+  color: #fff !important;
+  margin-left: 25px;
+}
+
+.navbar.scrolled {
+  background-color: rgb(0, 0, 0);
+  padding: 2.3%;
+
+  transition: 0.5s;
+}
+
+.nav-item {
+  font-weight: bolder;
+}
+
+@media (max-width: 991.5px) {
+  .navbar.scrolled {
+    background-color: #000;
+    padding: 0%;
+    transition: 0.5s;
+  }
+  .logo {
+    width: 100px;
+    margin-left: 0px;
+  }
+  .nav-item {
+    background-color: #000;
+  }
+}
+
+.con {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.row {
+  z-index: 1;
+}
+.aboutus {
+  min-width: 100%;
+}
+
+.moto {
+  text-align: center; /*set media kit */
+  font-size: 3rem;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+h2 {
+  text-align: center;
+  font-size: 0.5rem;
+  margin: 50px auto auto 100px;
+}
+
+/* ////////////////////////////////////// video carousel //////////////////////////////////// */
+
+.carousel-item {
+  text-align: center;
+}
+
+.width-50 {
+  width: 50% !important;
+  margin-left: 24%;
+}
+.width-30 {
+  width: 30% !important;
+  margin-left: 33.3333%;
+}
+.eveCont {
+  padding: 0 14%;
+  text-align: justify;
+}
+/*////////////////////////////// footer/////////////////////////////////////// */
+
+footer {
+  background-color: #194273;
+  color: blanchedalmond;
+  height: 20%;
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 10px;
+}
+
+.faaa {
+  color: #fff;
+}
+
+@media (max-width: 991.5px) {
+  footer {
+    padding: 7%;
+  }
+}
+
+/*//////////////////////////////// scrollbar ////////////////////////////////////////*/
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.container-colored {
+  background-color: #194273;
+  color: #fff;
+}
