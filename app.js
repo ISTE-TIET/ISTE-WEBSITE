@@ -10,7 +10,7 @@ const app = express();
 
 mongoose.connect("mongodb://localhost:27017/contactUsDB",{ useNewUrlParser: true, useUnifiedTopology: true });
 
-
+// mongoose schema 
 const contactSchema = {
     name: String,
     email: String,
