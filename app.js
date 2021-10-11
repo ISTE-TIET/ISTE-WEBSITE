@@ -6,17 +6,7 @@ const mongoose = require("mongoose");
 
 const app = express();
 
-
-
-
-
-
-
-
-
-
-
-
+// mongoDB connection
 
 mongoose.connect("mongodb://localhost:27017/contactUsDB",{ useNewUrlParser: true, useUnifiedTopology: true });
 
