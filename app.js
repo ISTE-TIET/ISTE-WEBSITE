@@ -28,6 +28,7 @@ app.use("/contactus",express.static("contactPublic"));
 app.use("/sponsors",express.static("sponsorPublic"));
 app.use("/team",express.static("teamPublic"));
 
+//get requests
 app.get("/", function(req,res){
     res.sendFile(__dirname+"/ISTE/index.html");
 });
