@@ -44,7 +44,7 @@ app.get("/sponsors", function(req,res){
 app.get("/team", function(req,res){
     res.sendFile(__dirname+"/team/index.html");
 });
-
+// post request
 app.post("/contactus", function(req,res){
     // console.log(req.body.name);
     const data = new Contact({
