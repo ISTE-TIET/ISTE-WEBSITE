@@ -28,7 +28,7 @@ app.use("/contactus",express.static("contactPublic"));
 app.use("/sponsors",express.static("sponsorPublic"));
 app.use("/team",express.static("teamPublic"));
 
-//get requests
+//get request
 app.get("/", function(req,res){
     res.sendFile(__dirname+"/ISTE/index.html");
 });
@@ -56,7 +56,7 @@ app.post("/contactus", function(req,res){
     data.save();
     res.redirect("/contactus");
 });
-//listen function 
+//listen function  
 app.listen(process.env.PORT||3000, function(){
     console.log("server started at port 3000");
 });
